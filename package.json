@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index",
     "server": "nodemon index.ts execMap .ts ts-node index.ts",
-    "client-install": "npm install --prefix client_side",
-    "client": "npm run start --prefix client_side",
+    "client-install": "npm install --prefix client",
+    "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
